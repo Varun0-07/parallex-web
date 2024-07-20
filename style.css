@@ -1,0 +1,119 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+ } 
+
+ nav{
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: rgb(67, 67, 240);
+ }
+
+ nav div{
+  margin-left: 50px;
+ }
+
+ nav ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration: underline;
+  padding-block-end: 30px;
+ }  
+
+ nav ul li{
+  margin: 0px 20px;
+  font-size: larger;
+ }
+ 
+ nav ul li a,
+ h1
+ {
+  color: aliceblue;
+ }
+
+ #img-1{
+  background-image: url(./images/manali1.jpeg);
+  height: 100%;
+ }
+ #img-2{
+  background-image: url(./images/goa.jpg);
+  height: 900px;
+ }
+ #img-3{
+  background-image: url(./images/jaipur.jpg);
+  height: 900px;
+ }
+ #img-1,
+ #img-2,
+ #img-3{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ #img-1 .manali,
+ #img-2 .goa,
+ #img-3 .jaipur{
+  height: 120px;
+  width: 250px;
+  background-color: rgb(111, 123, 134);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  font-style: italic;
+  font-family: cursive;
+ }
+ #img-1 .manali a,
+ #img-2 .goa a,
+ #img-3 .jaipur a{
+  color: aliceblue;
+  text-decoration: none;
+ }
+
+ nav li :hover{
+  color: rgb(230, 11, 11);
+ }
+
+ .m-contant,
+ .g-contant,
+ .j-contant{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+ }
+ .m-contant h1,
+ .g-contant h1,
+ .j-contant h1{
+  color: black;
+  font-size: 30px;
+ }
+ p{
+  margin: 0px 40px 40px 40px;
+  font-size: medium;
+  font-weight: 500;
+ }
+
+ #last{
+  height: 80px;
+  width: 100%;
+  background-color: #a5d875e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px ;
+ }
